@@ -5,6 +5,7 @@
     "awsec2docker_express": "bin/awsec2docker_express.js"
   },
   "scripts": {
+    "test":"echo \"Error: no test specified\"",
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk"
