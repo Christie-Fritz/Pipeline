@@ -5,20 +5,21 @@
     "awsec2docker_express": "bin/awsec2docker_express.js"
   },
   "scripts": {
-    "test":"echo \"Error: no test specified\"",
+    "test": "echo \"Error: no test specified\"",
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk"
   },
   "devDependencies": {
     "@types/node": "8.10.40",
-    "typescript": "^3.3.3333",
-    "aws-cdk": "^0.25.0"
+    "aws-cdk": "^0.25.0",
+    "typescript": "^3.3.3333"
   },
   "dependencies": {
     "@aws-cdk/aws-ecs": "^0.25.0",
     "@aws-cdk/aws-elasticloadbalancingv2": "^0.25.0",
     "@aws-cdk/cdk": "^0.25.0",
+    "express": "^4.18.2",
     "source-map-support": "^0.5.9"
   }
 }
